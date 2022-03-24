@@ -71,7 +71,7 @@ const Navigation = () => {
           ))
           .reverse()}
       </div>
-      <div className="grid align-center h-7 border-l-2">
+      <div className="grid content-center h-7 border-l-2">
         <div className="text-[35px] -scale-x-100 leading-none hover:text-cyan-400 ml-auto flex-grow origin-center pr-3 hover:cursor-pointer ">
           ⌕
         </div>
