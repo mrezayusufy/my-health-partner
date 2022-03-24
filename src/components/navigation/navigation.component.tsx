@@ -38,10 +38,6 @@ const iconList: Array<iIconList> = [
     icon: <HealthyHeart height={40} width={40} />,
     active: false,
   },
-  {
-    icon: <HealthyHeart height={40} width={40} />,
-    active: false,
-  },
 ]
 
 const Navigation = () => {
