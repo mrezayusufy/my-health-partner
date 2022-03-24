@@ -13,16 +13,16 @@ const Testimonial = () => {
         <form>
           {/* dropdown */}
           <div>
-            <p>i have</p>
-            <input type="text" value={'my disease'} />
+            <label htmlFor="disease">i have</label>
+            <input type="text" id="disease" value={'my disease'} />
           </div>
           <div>
-            <p>i am</p>
-            <input type="text" value={'gender'} />
+            <label htmlFor="gender">i am</label>
+            <input type="text" id="gender" value={'gender'} />
           </div>
           <div>
-            <p>about</p>
-            <input type="text" value={'age'} />
+            <label htmlFor="age">about</label>
+            <input type="text" id="age" value={'age'} />
           </div>
           <button type="submit">search</button>
         </form>

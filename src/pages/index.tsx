@@ -2,11 +2,10 @@ import Testimonial from '../components/testimonial/testimonial.component'
 import Navigation from '../components/navigation/navigation.component'
 export default function Home() {
   return (
-    <div className="container px-5 py-4 mx-auto bg-white">
+    <div className="container mx-auto bg-white">
       <Navigation />
       <div className="container flex p-4 mx-auto min-h-screen">
-        <main>
-        </main>
+        <main></main>
       </div>
     </div>
   )
