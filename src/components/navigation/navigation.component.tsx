@@ -12,8 +12,10 @@ const Navigation = () => {
         <MenuItem title="living" />
         <MenuItem title="about us" />
       </div>
-      <div className="flex-1 h-10 w-9 my-1">
-        <div className="text-4xl -scale-x-100 flex-grow origin-center">⌕</div>
+      <div className="flex-1 h-10 w-9 my-1 ">
+        <div className="text-4xl -scale-x-100 ml-auto flex-grow origin-center w-7 hover:cursor-pointer">
+          ⌕
+        </div>
       </div>
       <div className="font-bold hover:text-cyan-400">FA</div>
     </nav>
